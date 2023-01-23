@@ -1,6 +1,3 @@
-#!/usr/Bin/node
-//jshint esversion:6
-
 export default function getNeighborhoodsList() {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
