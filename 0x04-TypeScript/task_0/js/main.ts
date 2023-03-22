@@ -4,22 +4,22 @@ export interface Student {
   age: number;
   location: string;
 }
-const studentA: Student = {
-  firstName: "Harry",
-  lastName: "Yoon",
-  age: 22,
-  location: "Seoul, South Korea",
+const student1: Student = {
+  firstName: "Langton",
+  lastName: "Mwanza",
+  age: 30,
+  location: "Harare, Zimbabwe",
 };
-const studentB: Student = {
-  firstName: "Anjali",
-  lastName: "Prajapati",
-  age: 22,
-  location: "Lodz, Poland",
+const student2: Student = {
+  firstName: "Michael",
+  lastName: "Mwanza",
+  age: 32,
+  location: "Port Elizabeth, South Africa",
 };
 
 const studentsList: Array<Student> = [
-  studentA,
-  studentB,
+  student1,
+  student2,
 ];
 const styleSheet = `
   html {
